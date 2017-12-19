@@ -1,0 +1,38 @@
+{
+  "name": "webpack-tray-opencode",
+  "version": "1.0.0",
+  "description": "Workflow feito com webpack para rodar o Opencode",
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.35",
+    "@babel/preset-env": "^7.0.0-beta.35",
+    "babel-loader": "^8.0.0-beta.0",
+    "babel-minify-webpack-plugin": "^0.2.0",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "gitignore": "^0.6.0",
+    "node-sass": "^4.7.2",
+    "optimize-css-assets-webpack-plugin": "^3.2.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0"
+  },
+  "scripts": {
+    "opencode": "webpack --watch"
+  },
+  "author": "Lincon Kusunoki",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linconkusunoki/webpack-opencode.git"
+  },
+  "keywords": [
+    "tray",
+    "opencode",
+    "workflow"
+  ],
+  "bugs": {
+    "url": "https://github.com/linconkusunoki/webpack-opencode/issues"
+  },
+  "homepage": "https://github.com/linconkusunoki/webpack-opencode#readme"
+}
